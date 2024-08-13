@@ -8,9 +8,11 @@ A basic react.js app with a useContext/ useReducer setup for a fluid dynamic ren
 
 - Routing : react-router-dom
 
+- UI : TailwindCSS
+
 React Quick Start
 
-``` shell
+```shell
 # clone the repo from github 
 git clone ...
 
@@ -20,29 +22,29 @@ cd react-context
 # install the frontend dependencies
 npm install
 
-# open a new window to handle the backend server 
-Ctrl + Shift + N # Or access file menu and select "New Window" command
-
-# Select the backend folder in this new window with the "Open Folder" command
-Ctrl + K and Ctrl + O # Need to press K and O simultaneously with the Ctrl key to access "Open Folder"
-
-# Once the backend folder selected, install the dependencies and start the server
-npm install
+# Start front end testing
 npm run start
+```
 
-# In the other window, you can launch the frontend
+## Backend
+
+> Launch backend server
+
+``` shell
+# Open the backend in another VS Code window and install dependencies
+npm install
+
+# Run the server
 npm run start
 ```
 
 ## Authenticate
 
-To authenticate as Sophie Bluel, you need to access the login page and use these logins :
+To authenticate as Sophie Bluel, in the login page, use these logins :
 
-``` txt
-email : sophie.bluel@test.tld
-
-password: S0phie 
-```
+> email : sophie.bluel@test.tld
+>
+> password: S0phie
 
 ## Add or delete work
 
@@ -53,4 +55,6 @@ When authenticated, the "modify" button appears and you can add or delete works 
 
 Adding and deleting works will be dynamically visible in the app and you'll be able to see the gallery updated right after your action without refreshing the page.
 
-Author: Steviggio
+### Author
+
+- Author: Steviggio
